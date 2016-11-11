@@ -1,0 +1,81 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].statsfiles.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              87793              0          87793
+filtered_by_rm_duplicates            1628           1628          86165
+filtered_by_max_indels                613            508          85657
+filtered_by_max_snps                  457            295          85362
+filtered_by_max_shared_het           1261           1119          84243
+filtered_by_min_sample              39556          39016          45227
+filtered_by_max_alleles             11248           5527          39700
+total_filtered_loci                 39700              0          39700
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                        sample_coverage
+29154_superba                     20516
+30556_thamno                      30672
+30686_cyathophylla                25953
+32082_przewalskii                 14378
+33413_thamno                      18044
+33588_przewalskii                 16692
+35236_rex                         32033
+35855_rex                         32073
+38362_rex                         32429
+39618_rex                         26966
+40578_rex                         32826
+41478_cyathophylloides            30274
+41954_cyathophylloides            27611
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4             5038          5038
+5             3624          8662
+6             3233         11895
+7             2949         14844
+8             3007         17851
+9             3956         21807
+10            4843         26650
+11            5434         32084
+12            4718         36802
+13            2898         39700
+
+
+## The distribution of SNPs (var and pis) across loci.
+## var = all variable sites (pis + autapomorphies)
+## pis = parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var   pis  sum_pis
+0   1675        0  9308        0
+1   3261     3261  9042     9042
+2   4361    11983  6965    22972
+3   4681    26026  4717    37123
+4   4617    44494  3208    49955
+5   4051    64749  2174    60825
+6   3523    85887  1490    69765
+7   3013   106978  1028    76961
+8   2482   126834   702    82577
+9   2003   144861   482    86915
+10  1656   161421   284    89755
+11  1284   175545   154    91449
+12   985   187365    69    92277
+13   681   196218    36    92745
+14   483   202980    22    93053
+15   358   208350    10    93203
+16   239   212174     5    93283
+17   153   214775     3    93334
+18    84   216287     1    93352
+19    69   217598     0    93352
+20    41   218418     0    93352
